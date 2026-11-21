@@ -1,0 +1,1901 @@
+{
+ "generated": "2026-11-21T06:16:39-07:00",
+ "season": 2026,
+ "label": "During Week 11",
+ "phase": "regular",
+ "team_names": {
+  "ARI": {
+   "name": "Arizona Cardinals",
+   "short": "Cardinals"
+  },
+  "ATL": {
+   "name": "Atlanta Falcons",
+   "short": "Falcons"
+  },
+  "BAL": {
+   "name": "Baltimore Ravens",
+   "short": "Ravens"
+  },
+  "CAR": {
+   "name": "Carolina Panthers",
+   "short": "Panthers"
+  },
+  "CIN": {
+   "name": "Cincinnati Bengals",
+   "short": "Bengals"
+  },
+  "CLE": {
+   "name": "Cleveland Browns",
+   "short": "Browns"
+  },
+  "DAL": {
+   "name": "Dallas Cowboys",
+   "short": "Cowboys"
+  },
+  "DET": {
+   "name": "Detroit Lions",
+   "short": "Lions"
+  },
+  "IND": {
+   "name": "Indianapolis Colts",
+   "short": "Colts"
+  },
+  "KC": {
+   "name": "Kansas City Chiefs",
+   "short": "Chiefs"
+  },
+  "MIN": {
+   "name": "Minnesota Vikings",
+   "short": "Vikings"
+  },
+  "NO": {
+   "name": "New Orleans Saints",
+   "short": "Saints"
+  },
+  "NYG": {
+   "name": "New York Giants",
+   "short": "Giants"
+  },
+  "TB": {
+   "name": "Tampa Bay Buccaneers",
+   "short": "Buccaneers"
+  },
+  "WSH": {
+   "name": "Washington Commanders",
+   "short": "Commanders"
+  }
+ },
+ "next_update": "2026-11-22T18:00Z",
+ "stake": 20,
+ "escalator": 200,
+ "odds_source": "DraftKings odds via ESPN, fetched Nov 21",
+ "model_fit": 0.053499695075347325,
+ "players": [
+  "Rob",
+  "Andy",
+  "Darren",
+  "Steve"
+ ],
+ "lists": {
+  "Rob": [
+   "BAL",
+   "DET",
+   "KC",
+   "CIN",
+   "DAL",
+   "TB",
+   "MIN"
+  ],
+  "Andy": [
+   "DET",
+   "BAL",
+   "KC",
+   "CIN",
+   "IND",
+   "MIN",
+   "DAL",
+   "NYG",
+   "TB",
+   "WSH"
+  ],
+  "Darren": [
+   "BAL",
+   "DET",
+   "CIN"
+  ],
+  "Steve": [
+   "KC",
+   "TB",
+   "NO",
+   "ATL",
+   "CIN",
+   "CLE"
+  ]
+ },
+ "pairings": [
+  {
+   "id": "Rob-Andy",
+   "a": "Rob",
+   "b": "Andy",
+   "team_a": "BAL",
+   "team_b": "DET",
+   "decided_at_pick": 1,
+   "p_a": 0.1006,
+   "p_b": 0.8994,
+   "p_push": 0.0,
+   "ev_a": -22.896,
+   "ev_base_a": -15.206,
+   "ev_escalator_a": -7.69,
+   "p_esc_a": 0.0036,
+   "p_esc_b": 0.042,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": -0.0034,
+   "delta_ev_a": 0.05,
+   "note": "Ravens 4-6, Lions 7-2"
+  },
+  {
+   "id": "Rob-Darren",
+   "a": "Rob",
+   "b": "Darren",
+   "team_a": "KC",
+   "team_b": "CIN",
+   "decided_at_pick": 3,
+   "p_a": 0.3851,
+   "p_b": 0.6149,
+   "p_push": 0.0,
+   "ev_a": -4.813,
+   "ev_base_a": -4.573,
+   "ev_escalator_a": -0.24,
+   "p_esc_a": 0.0756,
+   "p_esc_b": 0.0768,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": 0.0026,
+   "delta_ev_a": -0.44,
+   "note": "Chiefs 7-2, Bengals 7-2"
+  },
+  {
+   "id": "Rob-Steve",
+   "a": "Rob",
+   "b": "Steve",
+   "team_a": "BAL",
+   "team_b": "KC",
+   "decided_at_pick": 1,
+   "p_a": 0.0758,
+   "p_b": 0.9242,
+   "p_push": 0.0,
+   "ev_a": -29.9225,
+   "ev_base_a": -15.5275,
+   "ev_escalator_a": -14.395,
+   "p_esc_a": 0.0036,
+   "p_esc_b": 0.0756,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": -0.0029,
+   "delta_ev_a": 0.49,
+   "note": "Ravens 4-6, Chiefs 7-2"
+  },
+  {
+   "id": "Andy-Darren",
+   "a": "Andy",
+   "b": "Darren",
+   "team_a": "DET",
+   "team_b": "BAL",
+   "decided_at_pick": 1,
+   "p_a": 0.8994,
+   "p_b": 0.1006,
+   "p_push": 0.0,
+   "ev_a": 22.896,
+   "ev_base_a": 15.206,
+   "ev_escalator_a": 7.69,
+   "p_esc_a": 0.042,
+   "p_esc_b": 0.0036,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": 0.0034,
+   "delta_ev_a": -0.05,
+   "note": "Lions 7-2, Ravens 4-6"
+  },
+  {
+   "id": "Andy-Steve",
+   "a": "Andy",
+   "b": "Steve",
+   "team_a": "DET",
+   "team_b": "KC",
+   "decided_at_pick": 1,
+   "p_a": 0.4867,
+   "p_b": 0.5133,
+   "p_push": 0.0,
+   "ev_a": -6.5665,
+   "ev_base_a": 0.1385,
+   "ev_escalator_a": -6.705,
+   "p_esc_a": 0.042,
+   "p_esc_b": 0.0756,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": 0.0075,
+   "delta_ev_a": 0.72,
+   "note": "Lions 7-2, Chiefs 7-2"
+  },
+  {
+   "id": "Darren-Steve",
+   "a": "Darren",
+   "b": "Steve",
+   "team_a": "BAL",
+   "team_b": "KC",
+   "decided_at_pick": 1,
+   "p_a": 0.0758,
+   "p_b": 0.9242,
+   "p_push": 0.0,
+   "ev_a": -29.9225,
+   "ev_base_a": -15.5275,
+   "ev_escalator_a": -14.395,
+   "p_esc_a": 0.0036,
+   "p_esc_b": 0.0756,
+   "status": "live",
+   "escalator_alive": true,
+   "delta_p_a": -0.0029,
+   "delta_ev_a": 0.49,
+   "note": "Ravens 4-6, Chiefs 7-2"
+  }
+ ],
+ "people": {
+  "Rob": {
+   "ev": -57.6315,
+   "ev_base": -35.3065,
+   "ev_escalator": -22.325,
+   "p_up": 0.0708,
+   "p_down": 0.9292,
+   "p_even": 0.0,
+   "p10": -200.0,
+   "p50": -60.0,
+   "p90": -20.0,
+   "best": 420.0,
+   "worst": -240.0,
+   "p_any_escalator_win": 0.0792,
+   "p_any_escalator_loss": 0.1944,
+   "p_full_escalator": 0.0,
+   "dist": [
+    {
+     "x": -240.0,
+     "p": 0.08878
+    },
+    {
+     "x": -200.0,
+     "p": 0.02615
+    },
+    {
+     "x": -160.0,
+     "p": 0.0039
+    },
+    {
+     "x": -60.0,
+     "p": 0.43225
+    },
+    {
+     "x": -20.0,
+     "p": 0.37815
+    },
+    {
+     "x": 20.0,
+     "p": 0.06082
+    },
+    {
+     "x": 60.0,
+     "p": 0.00635
+    },
+    {
+     "x": 380.0,
+     "p": 0.00208
+    },
+    {
+     "x": 420.0,
+     "p": 0.00152
+    }
+   ],
+   "delta_ev": 0.1
+  },
+  "Andy": {
+   "ev": 39.2255,
+   "ev_base": 30.5505,
+   "ev_escalator": 8.675,
+   "p_up": 0.8305,
+   "p_down": 0.1695,
+   "p_even": 0.0,
+   "p10": -60.0,
+   "p50": 20.0,
+   "p90": 60.0,
+   "best": 600.0,
+   "worst": -420.0,
+   "p_any_escalator_win": 0.042,
+   "p_any_escalator_loss": 0.0792,
+   "p_full_escalator": 0.042,
+   "dist": [
+    {
+     "x": -420.0,
+     "p": 0.00148
+    },
+    {
+     "x": -380.0,
+     "p": 0.00213
+    },
+    {
+     "x": -240.0,
+     "p": 0.00668
+    },
+    {
+     "x": -160.0,
+     "p": 0.0689
+    },
+    {
+     "x": -60.0,
+     "p": 0.06665
+    },
+    {
+     "x": -20.0,
+     "p": 0.0237
+    },
+    {
+     "x": 20.0,
+     "p": 0.3696
+    },
+    {
+     "x": 60.0,
+     "p": 0.41882
+    },
+    {
+     "x": 600.0,
+     "p": 0.04205
+    }
+   ],
+   "delta_ev": 0.63
+  },
+  "Darren": {
+   "ev": -48.0055,
+   "ev_base": -26.1605,
+   "ev_escalator": -21.845,
+   "p_up": 0.1651,
+   "p_down": 0.8349,
+   "p_even": 0.0,
+   "p10": -200.0,
+   "p50": -20.0,
+   "p90": 60.0,
+   "best": 420.0,
+   "worst": -420.0,
+   "p_any_escalator_win": 0.0804,
+   "p_any_escalator_loss": 0.1176,
+   "p_full_escalator": 0.0,
+   "dist": [
+    {
+     "x": -420.0,
+     "p": 0.0689
+    },
+    {
+     "x": -380.0,
+     "p": 0.00668
+    },
+    {
+     "x": -240.0,
+     "p": 0.01617
+    },
+    {
+     "x": -200.0,
+     "p": 0.023
+    },
+    {
+     "x": -160.0,
+     "p": 0.00288
+    },
+    {
+     "x": -60.0,
+     "p": 0.25877
+    },
+    {
+     "x": -20.0,
+     "p": 0.45848
+    },
+    {
+     "x": 20.0,
+     "p": 0.05682
+    },
+    {
+     "x": 60.0,
+     "p": 0.02792
+    },
+    {
+     "x": 160.0,
+     "p": 0.06623
+    },
+    {
+     "x": 200.0,
+     "p": 0.0071
+    },
+    {
+     "x": 240.0,
+     "p": 0.00345
+    },
+    {
+     "x": 380.0,
+     "p": 0.00152
+    },
+    {
+     "x": 420.0,
+     "p": 0.00208
+    }
+   ],
+   "delta_ev": 0.98
+  },
+  "Steve": {
+   "ev": 66.4115,
+   "ev_base": 30.9165,
+   "ev_escalator": 35.495,
+   "p_up": 0.8854,
+   "p_down": 0.1145,
+   "p_even": 0.0,
+   "p10": -20.0,
+   "p50": 20.0,
+   "p90": 60.0,
+   "best": 600.0,
+   "worst": -420.0,
+   "p_any_escalator_win": 0.0756,
+   "p_any_escalator_loss": 0.0457,
+   "p_full_escalator": 0.0756,
+   "dist": [
+    {
+     "x": -420.0,
+     "p": 0.00213
+    },
+    {
+     "x": -380.0,
+     "p": 0.00148
+    },
+    {
+     "x": -240.0,
+     "p": 0.00332
+    },
+    {
+     "x": -160.0,
+     "p": 0.03873
+    },
+    {
+     "x": -60.0,
+     "p": 0.05418
+    },
+    {
+     "x": -20.0,
+     "p": 0.01472
+    },
+    {
+     "x": 20.0,
+     "p": 0.38835
+    },
+    {
+     "x": 60.0,
+     "p": 0.42152
+    },
+    {
+     "x": 600.0,
+     "p": 0.07558
+    }
+   ],
+   "delta_ev": -1.71
+  }
+ },
+ "teams": {
+  "BAL": {
+   "name": "Baltimore Ravens",
+   "record": "4-6",
+   "p_playoffs": 0.1932,
+   "p_division": 0.0095,
+   "p_conference": 0.0095,
+   "p_superbowl": 0.0036,
+   "market_sb": "+25000",
+   "last_game": "L 20-23 vs LAC",
+   "next_game": "at CAR \u00b7 Sun Nov 22",
+   "next_at": "2026-11-22T18:00Z",
+   "next_opp": "CAR",
+   "next_home": false,
+   "eliminated": false,
+   "held_by": [
+    {
+     "player": "Rob",
+     "vs": "Andy"
+    },
+    {
+     "player": "Rob",
+     "vs": "Steve"
+    },
+    {
+     "player": "Darren",
+     "vs": "Steve"
+    },
+    {
+     "player": "Darren",
+     "vs": "Andy"
+    }
+   ]
+  },
+  "CIN": {
+   "name": "Cincinnati Bengals",
+   "record": "7-2",
+   "p_playoffs": 0.9808,
+   "p_division": 0.7903,
+   "p_conference": 0.1721,
+   "p_superbowl": 0.0768,
+   "market_sb": "+950",
+   "last_game": "W 38-18 vs PIT",
+   "next_game": "at WSH \u00b7 Mon Nov 23",
+   "next_at": "2026-11-24T01:15Z",
+   "next_opp": "WSH",
+   "next_home": false,
+   "eliminated": false,
+   "held_by": [
+    {
+     "player": "Darren",
+     "vs": "Rob"
+    }
+   ]
+  },
+  "DET": {
+   "name": "Detroit Lions",
+   "record": "7-2",
+   "p_playoffs": 0.7623,
+   "p_division": 0.2871,
+   "p_conference": 0.0946,
+   "p_superbowl": 0.042,
+   "market_sb": "+1800",
+   "last_game": "W 35-10 vs NE",
+   "next_game": "vs TB \u00b7 Sun Nov 22",
+   "next_at": "2026-11-22T18:00Z",
+   "next_opp": "TB",
+   "next_home": true,
+   "eliminated": false,
+   "held_by": [
+    {
+     "player": "Andy",
+     "vs": "Darren"
+    },
+    {
+     "player": "Andy",
+     "vs": "Steve"
+    },
+    {
+     "player": "Andy",
+     "vs": "Rob"
+    }
+   ]
+  },
+  "KC": {
+   "name": "Kansas City Chiefs",
+   "record": "7-2",
+   "p_playoffs": 0.8779,
+   "p_division": 0.4871,
+   "p_conference": 0.1489,
+   "p_superbowl": 0.0756,
+   "market_sb": "+970",
+   "last_game": "W 35-13 at ATL",
+   "next_game": "vs ARI \u00b7 Sun Nov 22",
+   "next_at": "2026-11-22T18:00Z",
+   "next_opp": "ARI",
+   "next_home": true,
+   "eliminated": false,
+   "held_by": [
+    {
+     "player": "Rob",
+     "vs": "Darren"
+    },
+    {
+     "player": "Steve",
+     "vs": "Rob"
+    },
+    {
+     "player": "Steve",
+     "vs": "Andy"
+    },
+    {
+     "player": "Steve",
+     "vs": "Darren"
+    }
+   ]
+  }
+ },
+ "rooting": {
+  "label": "Week 11",
+  "by_person": {
+   "Rob": [
+    {
+     "game": "CIN @ WSH",
+     "kickoff": "2026-11-24T01:15Z",
+     "root_for": "WSH",
+     "against": "CIN",
+     "dollars": 9.53,
+     "why": "The Bengals are Darren's team against you"
+    },
+    {
+     "game": "BAL @ CAR",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "BAL",
+     "against": "CAR",
+     "dollars": 8.73,
+     "why": "The Ravens are your team against Andy and Steve"
+    },
+    {
+     "game": "TB @ DET",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "TB",
+     "against": "DET",
+     "dollars": 6.68,
+     "why": "The Lions are Andy's team against you"
+    },
+    {
+     "game": "ARI @ KC",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "KC",
+     "against": "ARI",
+     "dollars": 3.34,
+     "why": "The Chiefs are your team against Darren; the Chiefs are Steve's team against you"
+    },
+    {
+     "game": "NYJ @ LAC",
+     "kickoff": "2026-11-22T21:05Z",
+     "root_for": "NYJ",
+     "against": "LAC",
+     "dollars": 2.16,
+     "why": "Shapes the AFC West race for the Chiefs"
+    }
+   ],
+   "Andy": [
+    {
+     "game": "TB @ DET",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "DET",
+     "against": "TB",
+     "dollars": 25.72,
+     "why": "The Lions are your team against Rob and Darren and Steve"
+    },
+    {
+     "game": "ARI @ KC",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "ARI",
+     "against": "KC",
+     "dollars": 11.68,
+     "why": "The Chiefs are Steve's team against you"
+    },
+    {
+     "game": "BAL @ CAR",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "CAR",
+     "against": "BAL",
+     "dollars": 10.28,
+     "why": "The Ravens are Rob and Darren's team against you"
+    },
+    {
+     "game": "NO @ CHI",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "NO",
+     "against": "CHI",
+     "dollars": 2.88,
+     "why": "Shapes the NFC North race for the Lions"
+    },
+    {
+     "game": "CIN @ WSH",
+     "kickoff": "2026-11-24T01:15Z",
+     "root_for": "CIN",
+     "against": "WSH",
+     "dollars": 2.5,
+     "why": "Shapes the AFC North race for the Ravens"
+    }
+   ],
+   "Darren": [
+    {
+     "game": "ARI @ KC",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "ARI",
+     "against": "KC",
+     "dollars": 25.82,
+     "why": "The Chiefs are Rob and Steve's team against you"
+    },
+    {
+     "game": "CIN @ WSH",
+     "kickoff": "2026-11-24T01:15Z",
+     "root_for": "CIN",
+     "against": "WSH",
+     "dollars": 12.16,
+     "why": "The Bengals are your team against Rob"
+    },
+    {
+     "game": "BAL @ CAR",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "BAL",
+     "against": "CAR",
+     "dollars": 9.33,
+     "why": "The Ravens are your team against Andy and Steve"
+    },
+    {
+     "game": "TB @ DET",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "TB",
+     "against": "DET",
+     "dollars": 6.76,
+     "why": "The Lions are Andy's team against you"
+    },
+    {
+     "game": "MIN @ SF",
+     "kickoff": "2026-11-23T01:20Z",
+     "root_for": "MIN",
+     "against": "SF",
+     "dollars": 3.08,
+     "why": "Shapes the NFC North race for the Lions"
+    }
+   ],
+   "Steve": [
+    {
+     "game": "ARI @ KC",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "KC",
+     "against": "ARI",
+     "dollars": 34.15,
+     "why": "The Chiefs are your team against Rob and Andy and Darren"
+    },
+    {
+     "game": "TB @ DET",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "TB",
+     "against": "DET",
+     "dollars": 12.28,
+     "why": "The Lions are Andy's team against you"
+    },
+    {
+     "game": "BAL @ CAR",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "CAR",
+     "against": "BAL",
+     "dollars": 7.78,
+     "why": "The Ravens are Rob and Darren's team against you"
+    },
+    {
+     "game": "MIA @ BUF",
+     "kickoff": "2026-11-22T18:00Z",
+     "root_for": "MIA",
+     "against": "BUF",
+     "dollars": 5.29,
+     "why": "Shifts the AFC playoff picture for the Ravens"
+    },
+    {
+     "game": "CIN @ WSH",
+     "kickoff": "2026-11-24T01:15Z",
+     "root_for": "WSH",
+     "against": "CIN",
+     "dollars": 5.13,
+     "why": "Shapes the AFC North race for the Ravens"
+    }
+   ]
+  }
+ },
+ "history": [
+  {
+   "label": "Preseason",
+   "date": "2026-09-12",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.569,
+     "ev_a": 7.19
+    },
+    "Rob-Darren": {
+     "p_a": 0.5122,
+     "ev_a": 2.15
+    },
+    "Rob-Steve": {
+     "p_a": 0.5746,
+     "ev_a": 6.92
+    },
+    "Andy-Darren": {
+     "p_a": 0.3921,
+     "ev_a": -7.19
+    },
+    "Andy-Steve": {
+     "p_a": 0.4854,
+     "ev_a": -0.08
+    },
+    "Darren-Steve": {
+     "p_a": 0.5746,
+     "ev_a": 6.92
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 16.26
+    },
+    "Andy": {
+     "ev": -14.45
+    },
+    "Darren": {
+     "ev": 11.96
+    },
+    "Steve": {
+     "ev": -13.76
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0651,
+    "CIN": 0.0421,
+    "DET": 0.0449,
+    "KC": 0.047
+   }
+  },
+  {
+   "label": "After Week 1",
+   "date": "2026-09-17",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.6139,
+     "ev_a": 11.4
+    },
+    "Rob-Darren": {
+     "p_a": 0.5165,
+     "ev_a": 2.71
+    },
+    "Rob-Steve": {
+     "p_a": 0.5741,
+     "ev_a": 7.86
+    },
+    "Andy-Darren": {
+     "p_a": 0.3861,
+     "ev_a": -11.4
+    },
+    "Andy-Steve": {
+     "p_a": 0.4586,
+     "ev_a": -3.6
+    },
+    "Darren-Steve": {
+     "p_a": 0.5741,
+     "ev_a": 7.86
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 21.97
+    },
+    "Andy": {
+     "ev": -26.4
+    },
+    "Darren": {
+     "ev": 16.55
+    },
+    "Steve": {
+     "ev": -12.12
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0808,
+    "CIN": 0.0423,
+    "DET": 0.0428,
+    "KC": 0.0536
+   }
+  },
+  {
+   "label": "After Week 2",
+   "date": "2026-09-24",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.6176,
+     "ev_a": 12.05
+    },
+    "Rob-Darren": {
+     "p_a": 0.5213,
+     "ev_a": 3.87
+    },
+    "Rob-Steve": {
+     "p_a": 0.4988,
+     "ev_a": 2.73
+    },
+    "Andy-Darren": {
+     "p_a": 0.3824,
+     "ev_a": -12.05
+    },
+    "Andy-Steve": {
+     "p_a": 0.3629,
+     "ev_a": -10.06
+    },
+    "Darren-Steve": {
+     "p_a": 0.4988,
+     "ev_a": 2.73
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 18.65
+    },
+    "Andy": {
+     "ev": -34.16
+    },
+    "Darren": {
+     "ev": 10.91
+    },
+    "Steve": {
+     "ev": 4.6
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0777,
+    "CIN": 0.0455,
+    "DET": 0.0369,
+    "KC": 0.0622
+   }
+  },
+  {
+   "label": "After Week 3",
+   "date": "2026-10-01",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.599,
+     "ev_a": 10.49
+    },
+    "Rob-Darren": {
+     "p_a": 0.5651,
+     "ev_a": 6.95
+    },
+    "Rob-Steve": {
+     "p_a": 0.5061,
+     "ev_a": 1.7
+    },
+    "Andy-Darren": {
+     "p_a": 0.401,
+     "ev_a": -10.49
+    },
+    "Andy-Steve": {
+     "p_a": 0.3979,
+     "ev_a": -9.16
+    },
+    "Darren-Steve": {
+     "p_a": 0.5061,
+     "ev_a": 1.7
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 19.14
+    },
+    "Andy": {
+     "ev": -30.14
+    },
+    "Darren": {
+     "ev": 5.24
+    },
+    "Steve": {
+     "ev": 5.76
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0781,
+    "CIN": 0.0459,
+    "DET": 0.0419,
+    "KC": 0.0701
+   }
+  },
+  {
+   "label": "After Week 4",
+   "date": "2026-10-08",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.7102,
+     "ev_a": 19.16
+    },
+    "Rob-Darren": {
+     "p_a": 0.6349,
+     "ev_a": 12.61
+    },
+    "Rob-Steve": {
+     "p_a": 0.4962,
+     "ev_a": 1.04
+    },
+    "Andy-Darren": {
+     "p_a": 0.2898,
+     "ev_a": -19.16
+    },
+    "Andy-Steve": {
+     "p_a": 0.2843,
+     "ev_a": -18.19
+    },
+    "Darren-Steve": {
+     "p_a": 0.4962,
+     "ev_a": 1.04
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 32.82
+    },
+    "Andy": {
+     "ev": -56.51
+    },
+    "Darren": {
+     "ev": 7.59
+    },
+    "Steve": {
+     "ev": 16.1
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0875,
+    "CIN": 0.0408,
+    "DET": 0.0278,
+    "KC": 0.0809
+   }
+  },
+  {
+   "label": "After Week 5",
+   "date": "2026-10-15",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.7193,
+     "ev_a": 20.25
+    },
+    "Rob-Darren": {
+     "p_a": 0.6248,
+     "ev_a": 11.88
+    },
+    "Rob-Steve": {
+     "p_a": 0.5206,
+     "ev_a": 3.65
+    },
+    "Andy-Darren": {
+     "p_a": 0.2807,
+     "ev_a": -20.25
+    },
+    "Andy-Steve": {
+     "p_a": 0.3091,
+     "ev_a": -16.28
+    },
+    "Darren-Steve": {
+     "p_a": 0.5206,
+     "ev_a": 3.65
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 35.78
+    },
+    "Andy": {
+     "ev": -56.78
+    },
+    "Darren": {
+     "ev": 12.02
+    },
+    "Steve": {
+     "ev": 8.99
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0951,
+    "CIN": 0.0411,
+    "DET": 0.0313,
+    "KC": 0.0794
+   }
+  },
+  {
+   "label": "After Week 6",
+   "date": "2026-10-22",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.6486,
+     "ev_a": 13.9
+    },
+    "Rob-Darren": {
+     "p_a": 0.6533,
+     "ev_a": 16.77
+    },
+    "Rob-Steve": {
+     "p_a": 0.4051,
+     "ev_a": -7.65
+    },
+    "Andy-Darren": {
+     "p_a": 0.3514,
+     "ev_a": -13.9
+    },
+    "Andy-Steve": {
+     "p_a": 0.2803,
+     "ev_a": -20.6
+    },
+    "Darren-Steve": {
+     "p_a": 0.4051,
+     "ev_a": -7.65
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 23.01
+    },
+    "Andy": {
+     "ev": -48.39
+    },
+    "Darren": {
+     "ev": -10.52
+    },
+    "Steve": {
+     "ev": 35.9
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0749,
+    "CIN": 0.0373,
+    "DET": 0.0307,
+    "KC": 0.0964
+   }
+  },
+  {
+   "label": "After Week 7",
+   "date": "2026-10-29",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.5179,
+     "ev_a": 3.75
+    },
+    "Rob-Darren": {
+     "p_a": 0.5664,
+     "ev_a": 9.19
+    },
+    "Rob-Steve": {
+     "p_a": 0.3549,
+     "ev_a": -11.09
+    },
+    "Andy-Darren": {
+     "p_a": 0.4821,
+     "ev_a": -3.75
+    },
+    "Andy-Steve": {
+     "p_a": 0.3561,
+     "ev_a": -14.07
+    },
+    "Darren-Steve": {
+     "p_a": 0.3549,
+     "ev_a": -11.09
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": 1.85
+    },
+    "Andy": {
+     "ev": -21.57
+    },
+    "Darren": {
+     "ev": -16.53
+    },
+    "Steve": {
+     "ev": 36.25
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0535,
+    "CIN": 0.0465,
+    "DET": 0.0366,
+    "KC": 0.0828
+   }
+  },
+  {
+   "label": "After Week 8",
+   "date": "2026-11-05",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.2308,
+     "ev_a": -16.24
+    },
+    "Rob-Darren": {
+     "p_a": 0.4516,
+     "ev_a": 1.74
+    },
+    "Rob-Steve": {
+     "p_a": 0.1759,
+     "ev_a": -24.9
+    },
+    "Andy-Darren": {
+     "p_a": 0.7692,
+     "ev_a": 16.24
+    },
+    "Andy-Steve": {
+     "p_a": 0.4407,
+     "ev_a": -8.84
+    },
+    "Darren-Steve": {
+     "p_a": 0.1759,
+     "ev_a": -24.9
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": -39.4
+    },
+    "Andy": {
+     "ev": 23.63
+    },
+    "Darren": {
+     "ev": -42.87
+    },
+    "Steve": {
+     "ev": 58.64
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0085,
+    "CIN": 0.0544,
+    "DET": 0.0389,
+    "KC": 0.0748
+   }
+  },
+  {
+   "label": "After Week 9",
+   "date": "2026-11-12",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.1774,
+     "ev_a": -19.2
+    },
+    "Rob-Darren": {
+     "p_a": 0.4291,
+     "ev_a": -0.11
+    },
+    "Rob-Steve": {
+     "p_a": 0.1351,
+     "ev_a": -27.23
+    },
+    "Andy-Darren": {
+     "p_a": 0.8226,
+     "ev_a": 19.2
+    },
+    "Andy-Steve": {
+     "p_a": 0.4669,
+     "ev_a": -7.66
+    },
+    "Darren-Steve": {
+     "p_a": 0.1351,
+     "ev_a": -27.23
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": -46.54
+    },
+    "Andy": {
+     "ev": 30.75
+    },
+    "Darren": {
+     "ev": -46.32
+    },
+    "Steve": {
+     "ev": 62.12
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0056,
+    "CIN": 0.0606,
+    "DET": 0.0406,
+    "KC": 0.0758
+   }
+  },
+  {
+   "label": "After Week 10",
+   "date": "2026-11-19",
+   "pairings": {
+    "Rob-Andy": {
+     "p_a": 0.104,
+     "ev_a": -22.95
+    },
+    "Rob-Darren": {
+     "p_a": 0.3825,
+     "ev_a": -4.37
+    },
+    "Rob-Steve": {
+     "p_a": 0.0787,
+     "ev_a": -30.41
+    },
+    "Andy-Darren": {
+     "p_a": 0.896,
+     "ev_a": 22.95
+    },
+    "Andy-Steve": {
+     "p_a": 0.4792,
+     "ev_a": -7.29
+    },
+    "Darren-Steve": {
+     "p_a": 0.0787,
+     "ev_a": -30.41
+    }
+   },
+   "people": {
+    "Rob": {
+     "ev": -57.73
+    },
+    "Andy": {
+     "ev": 38.6
+    },
+    "Darren": {
+     "ev": -48.99
+    },
+    "Steve": {
+     "ev": 68.12
+    }
+   },
+   "teams_sb": {
+    "BAL": 0.0032,
+    "CIN": 0.0768,
+    "DET": 0.0427,
+    "KC": 0.0786
+   }
+  }
+ ],
+ "news": [
+  {
+   "headline": "Back at practice again, Bengals QB Burrow optimistic he'll be at full strength",
+   "published": "2026-11-21T12:51:42Z",
+   "byline": "Ben Baby",
+   "summary": "A full participant at practice for the second straight day despite the bug that he has battled, Bengals quarterback Joe Burrow is optimistic that he'll be at full strength when Cincinnati plays the Washington Commanders on \"Monday Night Football.\"",
+   "link": "https://www.espn.com/nfl/story/_/id/50544261/burrow-practices-again-full-strength-mnf",
+   "teams": [
+    "CIN"
+   ],
+   "affects": [
+    "Darren"
+   ]
+  },
+  {
+   "headline": "NFL Week 11 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+   "published": "2026-11-21T11:49:08Z",
+   "byline": "Matt Bowen, Pamela Maldonado, Eric Moody, Ben Solak and Seth Walder",
+   "summary": "Eagles upsetting the Steelers? Big receiving day for Christian McCaffrey? Touchdown for Josh Downs? Let's predict 15 things for Week 11.",
+   "link": "https://www.espn.com/nfl/story/_/id/50521728/week-11-predictions-upsets-fantasy-sleepers-stats-2026",
+   "teams": [
+    "BAL",
+    "CIN",
+    "KC"
+   ],
+   "affects": [
+    "Darren",
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "Why Amarius Mims is an underrated key to Bengals' success",
+   "published": "2026-11-21T11:00:10Z",
+   "byline": "Ben Baby",
+   "summary": "Joe Burrow is on an MVP trajectory, and a big reason is his OL, led by Amarius Mims.",
+   "link": "https://www.espn.com/nfl/story/_/id/50543897/bengals-amarius-mims-pass-protection-joe-burrow",
+   "teams": [
+    "CIN"
+   ],
+   "affects": [
+    "Darren"
+   ]
+  },
+  {
+   "headline": "Carmelo Anthony calls out Ravens' Humphrey over Baltimore 'criminals' remark",
+   "published": "2026-11-21T09:14:19Z",
+   "byline": null,
+   "summary": "Former NBA star Carmelo Anthony addressed Ravens CB Marlon Humphrey on Friday, challenging him to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+   "link": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
+   "teams": [
+    "BAL"
+   ],
+   "affects": [
+    "Darren",
+    "Rob"
+   ]
+  },
+  {
+   "headline": "Josh Downs prepares for second game as a Chief",
+   "published": "2026-11-21T04:05:49Z",
+   "byline": null,
+   "summary": "Nate Taylor reports on WR Josh Downs ahead of Week 11.",
+   "link": "https://www.espn.com/video/clip/_/id/50546590/josh-downs-prepares-second-game-chief",
+   "teams": [
+    "KC"
+   ],
+   "affects": [
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "Joe Burrow, Bengals gearing up for MNF",
+   "published": "2026-11-21T01:08:04Z",
+   "byline": null,
+   "summary": "Ben Baby previews Joe Burrow's mindset heading into Monday night against the Commanders.",
+   "link": "https://www.espn.com/video/clip/_/id/50545144/joe-burrow-bengals-gearing-mnf",
+   "teams": [
+    "CIN"
+   ],
+   "affects": [
+    "Darren"
+   ]
+  },
+  {
+   "headline": "NFL Week 11 uniforms: Texans debut Rivalries look, Commanders rock 'Hail Raiser'",
+   "published": "2026-11-20T22:49:33Z",
+   "byline": "Anthony Gharib",
+   "summary": "Here's a look at what each NFL team is wearing in Week 11, led by Houston debuting its Rivalries combination.",
+   "link": "https://www.espn.com/nfl/story/_/id/50514892/nfl-week-11-uniforms",
+   "teams": [
+    "BAL",
+    "CIN",
+    "DET",
+    "KC"
+   ],
+   "affects": [
+    "Andy",
+    "Darren",
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "Ravens rule out DT Nnamdi Madubuike (hamstring) vs Panthers",
+   "published": "2026-11-20T21:59:11Z",
+   "byline": "Jamison Hensley",
+   "summary": "Ravens defensive tackle Nnamdi Madubuike has a hamstring injury and has been ruled out for Sunday's game against the Panthers.",
+   "link": "https://www.espn.com/nfl/story/_/id/50542891/ravens-rule-dt-nnamdi-madubuike-hamstring-vs-panthers",
+   "teams": [
+    "BAL"
+   ],
+   "affects": [
+    "Darren",
+    "Rob"
+   ]
+  },
+  {
+   "headline": "Ravens heading into SNF without three defensive starters",
+   "published": "2026-11-20T21:46:27Z",
+   "byline": null,
+   "summary": "Jamison Hensley details who will be missing this week for Baltimore including Marlon Humphrey who will be a healthy scratch due to a comment he made on his podcast.",
+   "link": "https://www.espn.com/video/clip/_/id/50543662/ravens-heading-snf-three-defensive-starters",
+   "teams": [
+    "BAL"
+   ],
+   "affects": [
+    "Darren",
+    "Rob"
+   ]
+  },
+  {
+   "headline": "Fantasy buzz: Does anything change in Indy with Richardson under center?",
+   "published": "2026-11-20T21:04:02Z",
+   "byline": "ESPN Fantasy",
+   "summary": "Matt Bowen provides fantasy expectations for the Colts' new starter at QB and his supporting cast.",
+   "link": "https://www.espn.com/fantasy/football/story/_/id/40699880/fantasy-football-injuries-position-battles-nfl-news-analysis",
+   "teams": [
+    "BAL"
+   ],
+   "affects": [
+    "Darren",
+    "Rob"
+   ]
+  },
+  {
+   "headline": "Chiefs' Kenneth Walker III, two linemen out vs. Cardinals",
+   "published": "2026-11-20T20:29:34Z",
+   "byline": "Nate Taylor",
+   "summary": "Chiefs RB Kenneth Walker III will not play in Sunday's game against the Cardinals after not participating in practice this week due to a groin injury.",
+   "link": "https://www.espn.com/nfl/story/_/id/50543014/chiefs-expect-kenneth-walker-iii-vs-cardinals",
+   "teams": [
+    "KC"
+   ],
+   "affects": [
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "NFL Week 11 betting odds: Lines and totals for every game",
+   "published": "2026-11-20T20:13:57Z",
+   "byline": "ESPN",
+   "summary": "Updated odds, spreads, totals and FPI predictions for every NFL game in Week 11.",
+   "link": "https://www.espn.com/espn/betting/story/_/id/50501650/2026-nfl-week-11-schedule-odds-point-spreads-totals",
+   "teams": [
+    "BAL",
+    "CIN",
+    "DET",
+    "KC"
+   ],
+   "affects": [
+    "Andy",
+    "Darren",
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "NFL Week 11 preview: Picks, predictions, schedule, betting odds, fantasy tips",
+   "published": "2026-11-20T18:48:27Z",
+   "byline": "NFL Nation, Pamela Maldonado, Eric Moody and Seth Walder",
+   "summary": "Joe Burrow vs. Jayden Daniels? Fernando Mendoza vs. Bo Nix? There are 12 more games in Week 11, and we have picks, predictions and more for all of them.",
+   "link": "https://www.espn.com/nfl/story/_/id/50522208/week-11-picks-predictions-schedule-fantasy-odds-2026",
+   "teams": [
+    "CIN",
+    "DET",
+    "KC"
+   ],
+   "affects": [
+    "Andy",
+    "Darren",
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "Week 11 betting preview: Analysis, best bets, TD predictions for Sunday",
+   "published": "2026-11-20T17:59:16Z",
+   "byline": "Ben Solak, Seth Walder, Matt Bowen and Mike Clay",
+   "summary": "Our experts dive into the odds and player props for Week 11 and offer their betting tips and favorite plays.",
+   "link": "https://www.espn.com/espn/betting/story/_/id/50534274/week-11-nfl-odds-touchdown-props-best-bets-sunday-games",
+   "teams": [
+    "KC"
+   ],
+   "affects": [
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "Can Ravens keep the Marlon Humphrey controversy from becoming a distraction?",
+   "published": "2026-11-20T17:12:30Z",
+   "byline": "Jamison Hensley",
+   "summary": "While there's more to the cornerback's story, one Baltimore teammate says: \"We have enough things to worry about.\"",
+   "link": "https://www.espn.com/nfl/story/_/id/50541178/ravens-avoid-marlon-humphrey-controversy-distraction",
+   "teams": [
+    "BAL"
+   ],
+   "affects": [
+    "Darren",
+    "Rob"
+   ]
+  },
+  {
+   "headline": "Why Stephen A. thinks 'special' Joe Burrow is the MVP front-runner",
+   "published": "2026-11-20T16:14:39Z",
+   "byline": null,
+   "summary": "Why Stephen A. thinks 'special' Joe Burrow is the MVP front-runner",
+   "link": "https://www.espn.com/video/clip/_/id/50541578/why-stephen-thinks-special-joe-burrow-mvp-front-runner",
+   "teams": [
+    "CIN"
+   ],
+   "affects": [
+    "Darren"
+   ]
+  },
+  {
+   "headline": "Fantasy football last-minute pickups: Flournoy, Ayomanor among top candidates",
+   "published": "2026-11-20T11:51:24Z",
+   "byline": "Matt Bowen",
+   "summary": "There is no busier bye week than this one. Matt Bowen lists potential options if you need a fill-in.",
+   "link": "https://www.espn.com/fantasy/football/story/_/id/50532835/fantasy-football-streamers-last-minute-pickups-week-11",
+   "teams": [
+    "DET"
+   ],
+   "affects": [
+    "Andy"
+   ]
+  },
+  {
+   "headline": "NFL offseason free agent and trade acquisitions that have and have not worked",
+   "published": "2026-11-20T11:42:26Z",
+   "byline": "Aaron Schatz",
+   "summary": "Kenneth Walker III and Devin Lloyd look great with their new teams in 2026. But Jaylen Waddle and Alontae Taylor haven't quite found their groove.",
+   "link": "https://www.espn.com/nfl/story/_/id/50525533/2026-offseason-change-scenery-fits-players-new-teams",
+   "teams": [
+    "KC"
+   ],
+   "affects": [
+    "Rob",
+    "Steve"
+   ]
+  },
+  {
+   "headline": "NFL Week 11 arrivals: C.J. Stroud leads the way ahead of Colts-Texans",
+   "published": "2026-11-20T01:01:16Z",
+   "byline": "ESPN Staff",
+   "summary": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
+   "link": "https://www.espn.com/nfl/story/_/id/50535179/nfl-week-11-fashionable-arrivals",
+   "teams": [
+    "DET"
+   ],
+   "affects": [
+    "Andy"
+   ]
+  },
+  {
+   "headline": "Lions moving on after Hutchinson joins Campbell on IR and they face Bucs aiming for 6th straight win",
+   "published": "2026-11-19T23:23:33Z",
+   "byline": null,
+   "summary": "\u2014 Dan Campbell does not want to let the Detroit Lions become miserable in the Motor City by lamenting the losses of All-Pro linebacker ",
+   "link": "http://www.espn.com/nfl/preview?gameId=401873072",
+   "teams": [
+    "DET"
+   ],
+   "affects": [
+    "Andy"
+   ]
+  },
+  {
+   "headline": "Midseason reports on every NFL team's offensive coordinator, playcaller",
+   "published": "2026-11-19T17:37:25Z",
+   "byline": "NFL Nation",
+   "summary": "Here's the good and the bad for each offensive coordinator or playcaller through Week 10, plus keys to their success the rest of the way.",
+   "link": "https://www.espn.com/nfl/story/_/id/50520404/nfl-offensive-coordinators-playcallers-midseason-report",
+   "teams": [
+    "DET"
+   ],
+   "affects": [
+    "Andy"
+   ]
+  },
+  {
+   "headline": "2027 NFL mock draft: Reid's midseason first-round predictions for all 32 picks",
+   "published": "2026-11-18T17:51:58Z",
+   "byline": "Jordan Reid",
+   "summary": "Which NFL team could land Drew Mestemaker? Who needs Chris Cole, Ashton Hampton or Jamari Johnson? Jordan Reid projected first-round picks for 2027 -- and a trade.",
+   "link": "https://www.espn.com/nfl/draft2027/story/_/id/50502243/2027-nfl-mock-draft-reid-midseason-32-first-round-predictions",
+   "teams": [
+    "DET"
+   ],
+   "affects": [
+    "Andy"
+   ]
+  }
+ ],
+ "injuries": {
+  "BAL": [
+   {
+    "player": "Lamar Jackson",
+    "pos": "QB",
+    "status": "Injured Reserve",
+    "detail": "Thumb",
+    "date": "2026-11-18"
+   },
+   {
+    "player": "Jaylinn Hawkins",
+    "pos": "S",
+    "status": "Out",
+    "detail": "Knee",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Marlon Humphrey",
+    "pos": "CB",
+    "status": "Out",
+    "detail": "Personal",
+    "date": "2026-11-19"
+   },
+   {
+    "player": "Nnamdi Madubuike",
+    "pos": "DT",
+    "status": "Out",
+    "detail": "Hamstring",
+    "date": "2026-11-20"
+   }
+  ],
+  "CIN": [
+   {
+    "player": "Andrei Iosivas",
+    "pos": "WR",
+    "status": "Injured Reserve",
+    "detail": "Thumb",
+    "date": "2026-11-19"
+   },
+   {
+    "player": "Swayze Bozeman",
+    "pos": "LB",
+    "status": "Injured Reserve",
+    "detail": "Forearm",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Dalton Risner",
+    "pos": "G",
+    "status": "Questionable",
+    "detail": "Knee",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Dax Hill",
+    "pos": "CB",
+    "status": "Questionable",
+    "detail": "Illness",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Dylan Fairchild",
+    "pos": "G",
+    "status": "Questionable",
+    "detail": "Oblique",
+    "date": "2026-11-19"
+   },
+   {
+    "player": "Oren Burks",
+    "pos": "LB",
+    "status": "Questionable",
+    "detail": "Groin",
+    "date": "2026-11-20"
+   }
+  ],
+  "DET": [
+   {
+    "player": "Cade Mays",
+    "pos": "C",
+    "status": "Out",
+    "detail": "Ankle",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Aidan Hutchinson",
+    "pos": "DE",
+    "status": "Injured Reserve",
+    "detail": "Knee - ACL",
+    "date": "2026-11-18"
+   },
+   {
+    "player": "D.J. Reed",
+    "pos": "CB",
+    "status": "Questionable",
+    "detail": "Hip",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Ennis Rakestraw Jr.",
+    "pos": "CB",
+    "status": "Questionable",
+    "detail": "Shoulder",
+    "date": "2026-11-18"
+   },
+   {
+    "player": "Joe Bachie",
+    "pos": "LB",
+    "status": "Questionable",
+    "detail": "Knee",
+    "date": "2026-11-18"
+   },
+   {
+    "player": "Khalil Dorsey",
+    "pos": "CB",
+    "status": "Questionable",
+    "detail": "Ankle",
+    "date": "2026-11-18"
+   },
+   {
+    "player": "Sione Vaki",
+    "pos": "RB",
+    "status": "Questionable",
+    "detail": "Ankle",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Tyler Lacy",
+    "pos": "DT",
+    "status": "Questionable",
+    "detail": "Shoulder",
+    "date": "2026-11-18"
+   }
+  ],
+  "KC": [
+   {
+    "player": "Jaylon Moore",
+    "pos": "OT",
+    "status": "Out",
+    "detail": "Ankle",
+    "date": "2026-11-21"
+   },
+   {
+    "player": "Kenneth Walker III",
+    "pos": "RB",
+    "status": "Out",
+    "detail": "Groin",
+    "date": "2026-11-20"
+   },
+   {
+    "player": "Trey Smith",
+    "pos": "G",
+    "status": "Out",
+    "detail": "Concussion",
+    "date": "2026-11-21"
+   },
+   {
+    "player": "Jared Wiley",
+    "pos": "TE",
+    "status": "Injured Reserve",
+    "detail": "Ankle",
+    "date": "2026-11-19"
+   },
+   {
+    "player": "Omarr Norman-Lott",
+    "pos": "DT",
+    "status": "Questionable",
+    "detail": "Knee - ACL",
+    "date": "2026-11-21"
+   },
+   {
+    "player": "Peter Woods",
+    "pos": "DT",
+    "status": "Questionable",
+    "detail": "Neck",
+    "date": "2026-11-20"
+   }
+  ]
+ },
+ "odds_moves": [
+  {
+   "team": "BAL",
+   "from": "+15000",
+   "to": "+25000",
+   "shortened": false,
+   "since": "2026-11-16"
+  },
+  {
+   "team": "CIN",
+   "from": "+1000",
+   "to": "+950",
+   "shortened": true,
+   "since": "2026-11-15"
+  },
+  {
+   "team": "DET",
+   "from": "+1700",
+   "to": "+1800",
+   "shortened": false,
+   "since": "2026-11-15"
+  },
+  {
+   "team": "KC",
+   "from": "+950",
+   "to": "+970",
+   "shortened": false,
+   "since": "2026-11-17"
+  }
+ ],
+ "spreads": [
+  {
+   "team": "BAL",
+   "opp": "CAR",
+   "home": false,
+   "kickoff": "2026-11-22T18:00Z",
+   "line": 3.0,
+   "open": -4.5,
+   "prev": 2.5,
+   "prev_since": "2026-11-19"
+  },
+  {
+   "team": "CIN",
+   "opp": "WSH",
+   "home": false,
+   "kickoff": "2026-11-24T01:15Z",
+   "line": -6.0,
+   "open": -1.5,
+   "prev": -6.5,
+   "prev_since": "2026-11-19"
+  },
+  {
+   "team": "DET",
+   "opp": "TB",
+   "home": true,
+   "kickoff": "2026-11-22T18:00Z",
+   "line": -5.5,
+   "open": -4.5,
+   "prev": -6.0,
+   "prev_since": "2026-11-20"
+  },
+  {
+   "team": "KC",
+   "opp": "ARI",
+   "home": true,
+   "kickoff": "2026-11-22T18:00Z",
+   "line": -16.5,
+   "open": -11.5,
+   "prev": -15.5,
+   "prev_since": "2026-11-19"
+  }
+ ],
+ "gossip": {
+  "text": "Darren, the bug has gone. Joe Burrow was a full participant at practice for the second straight day and says he expects to be at full strength for Monday night in Washington. Yesterday this column wondered whether his illness might turn into something. It turned into nothing, and that's bad news for Rob, who holds the Chiefs against Darren's Bengals at 38 percent. On the same day Kansas City ruled out Kenneth Walker III with his groin, along with guard Trey Smith (concussion) and tackle Jaylon Moore (ankle). Both teams are 7-2, but the bookies now have Cincinnati at 9.5-to-1 for the title, just shorter than the Chiefs at 9.7. My view is simple. A healthy quarterback with his blockers intact beats a team missing its running back and two linemen. Rob's 38 percent looks like the most he'll ever have. The Chiefs are still 16.5-point favourites over Arizona and the line hasn't moved. After yesterday, I'm not reading anything into that.\n\nSteve, those Chiefs injuries hit you too. Your coin flip with Andy now comes down to whose team falls apart more slowly.\n\nMeanwhile the Humphrey affair has gone celebrity. Carmelo Anthony has challenged him to do more than apologise for calling Baltimore \"best at making criminals.\" On the field, the Ravens go to Carolina without three defensive starters: Humphrey, Nnamdi Madubuike (hamstring) and Jaylinn Hawkins (knee). They're 250-to-1 for the title. Rob and Darren hold them in four bets between them, each at 8 or 10 percent. That isn't a position. It's a support group.",
+  "written": "2026-11-21T06:16:15-07:00",
+  "based_on": 22
+ }
+}
